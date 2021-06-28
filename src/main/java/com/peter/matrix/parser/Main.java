@@ -16,8 +16,8 @@ public class Main {
         String path = ClassLoader.getSystemResource("log").getPath();
         File file = new File(path,".");
         System.out.println("jiangibn "+file.getAbsolutePath());
-//        readMapping();
-//        readLog();
+        readMapping();
+        readLog();
     }
 
     private static void readLog() {
